@@ -19,25 +19,7 @@ This project is designed as a learning exercise to understand GraphQL schemas, r
 - **Database**: Neon Postgres (cloud-hosted)
 - **Authentication**: API key required in request headers
 - **Validation**: Only certain currencies allowed (USD, EUR, KES)
-
 ---
-
-## 📂 Project Structure
-```
-graphql-payment-api/
-├── node_modules/
-├── .env                       # Environment variables
-├── package.json
-├── server.js                  # Apollo Server setup
-├── schema.js                  # GraphQL schema
-├── resolvers.js               # Resolver functions
-├── db.js                      # Neon Postgres connection
-└── utils/
-    └── auth.js                # API key validation
-```
-
----
-
 ## ⚙️ Setup
 
 ### 1. Clone the repo
@@ -161,10 +143,3 @@ curl -X POST http://localhost:4000/graphql \
 
 ## 📝 License
 This project is for **learning purposes only**. No production use intended.
-```
-
----
-
-This README gives you a **professional-looking project doc** that explains setup, usage, and testing clearly.  
-
-Would you like me to also add a **diagram (client → API → Neon DB)** so you can visualize the request flow in your README?
